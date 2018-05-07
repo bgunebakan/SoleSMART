@@ -1,0 +1,86 @@
+
+.multiselect-container>li>a>label{
+    padding:0 !important;
+}
+.card-header {
+    padding: 9px 15px 7px 15px;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #6699cc;
+}
+.dropdown_position1{
+    transform: translate3d(0px, 35px, 0px) !important;
+}
+.dropdown_position{
+transform: translate3d(0px, 35px, 0px) !important;
+}
+
+/* bootstrap 4 conversion*/
+.input-group.select2-bootstrap-append, .input-group.select2-bootstrap-prepend{
+display: -webkit-box;
+}
+.input-group.select2-bootstrap-append .btn.btn-default{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.input-group.select2-bootstrap-prepend .btn.btn-default{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.btn-group.show .multiselect-container.dropdown-menu.show, .btn-group.show .multiselect-container.dropdown-menu.show{
+    margin-top: -34px;
+    transform: translate3d(0px, 35px, 0px) !important;
+}
+.multiselect-container.dropdown-menu.show .btn.btn-default.multiselect-clear-filter{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.multiselect-container .input-group{
+    margin:0;
+}
+.select2-dropdown{
+    z-index: 99;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+input{
+    font-size: 14px;
+}
+.multiselect-item.filter, .multiselect-container.dropdown-menu li:nth-child(1){
+    margin-top: -5px;
+}
+.input-group.select2-bootstrap-multi-append .select2{
+    width:285px !important;
+}
+.input-group.select2-bootstrap-multi-append .btn.btn-default:nth-child(1), .input-group.select2-bootstrap-multi-append .btn.btn-default:nth-child(2){
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.input-group.select2-bootstrap-multi-append .btn.btn-default:nth-child(1), .input-group.select2-bootstrap-multi-append .btn.btn-default:nth-child(2), .input-group.select2-bootstrap-multi-append .btn.btn-default:nth-child(3){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.input-group.select2-bootstrap-multi-append .input-group-btn .btn.btn-default:nth-child(2), .input-group.select2-bootstrap-multi-append .input-group-btn .btn.btn-default:nth-child(3){
+    margin-left: -5px;
+}
+.input-group.select2-bootstrap-multi-append .dropdown-menu{
+    margin-top: -34px;
+    margin-left: -90px;
+}
+.selectize-dropdown, .selectize-input, .selectize-input input{
+    font-size: 13px;
+}
+.mrgn_top{
+    margin-top: 20px;
+}
+@media(max-width: 991px){
+    .set_media{
+        margin-top: 20px;
+    }
+}

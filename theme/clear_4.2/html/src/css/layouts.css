@@ -1,0 +1,70 @@
+.right-side {
+    padding-top :0;
+}
+.movable-header .rightsidebar-without-nav {
+    padding-top : 20px !important
+}
+@media screen and (max-width : 560px) {
+    body {
+        padding-top : 0 !important;
+    }
+    /*fixednav pages*/
+    .fixednav_right {
+        padding-top : 112px;
+    }
+}
+@media screen and (max-width : 992px) {
+    .fixed-menu #menu {
+        padding-top : 0;
+    }
+    .movable-header #right {
+        padding-top : 0;
+    }
+}
+@media screen and (max-width : 560px) {
+    .fixed-menu #menu {
+        padding-top : 90px;
+    }
+    .movable-header .rightsidebar-without-nav-small {
+        padding-top : 70px !important
+    }
+}
+.movable-header #menu {
+    padding-top : 0;
+}
+/*==== layout fixed ====*/
+.slimScrollBar {
+    width      : 3px !important;
+    opacity    : 0.5 !important;
+    background : rgb(130, 194, 224) !important;
+}
+.menu_align {
+    margin-bottom : 50px;
+}
+.full_img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+/*movable header page*/
+.header_movable {
+    position : relative !important;
+}
+pre{
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.428571429;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.affix {
+    position: fixed;
+}
+
+/*====End of layout fixed ====*/

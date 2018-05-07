@@ -1,0 +1,128 @@
+#color_modal .modal-header {
+    border-radius : 6px 6px 0 0;
+}
+
+#first-name {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#last-name {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.input-group {
+    width : 100%;
+}
+button {
+    margin-top : 10px;
+}
+.modal-content {
+    border : none;
+}
+.position_modal .modal-dialog {
+    position : fixed;
+}
+#top_modal {
+    z-index : 11000;
+
+}
+#top_modal .modal-dialog {
+    top       : 55px;
+    margin    : 0 0 0 50%;
+    transform : translateX(-50%);
+}
+#center_modal .modal-dialog {
+    top       : 50%;
+    margin    : 0 0 0 50%;
+    transform : translate(-50%, -50%);
+}
+#bottom_modal .modal-dialog {
+    bottom    : 0;
+    margin    : 0 0 0 50%;
+    transform : translateX(-50%);
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    border-top: 2px solid #6699cc;
+}
+@media screen and (max-width : 768px) {
+    #top_modal .modal-dialog,
+    #center_modal .modal-dialog,
+    #bottom_modal .modal-dialog {
+        width : 100%;
+    }
+}
+#sidebar_modal .modal-dialog {
+    position : absolute;
+    right    : 10px;
+    top      : 30%;
+    left     : auto;
+    margin   : 0;
+    width    : 270px;
+}
+#sidebar_modal .modal-content {
+    height      : 100%;
+}
+#accordions_modal .card {
+    box-shadow : 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#grid_modal .row {
+    border     : 1px solid #dcdcdc;
+    padding    : 3px;
+    margin-top : 2px;
+}
+#grid_modal .modal-body {
+    padding : 25px;
+}
+.card-title > a {
+    display : block;
+}
+#fill_modal.modal{
+    opacity          : 1;
+    background-color : #fff;
+}
+.fade{
+    padding-right: 0 !important;
+    opacity: 1;
+}
+.modal_shadow{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+body.skin-default {
+    padding-right: 0 !important;
+}
+h4{
+    font-size: 16px;
+}
+.mrgn_top{
+    margin-top: 20px;
+}
+.btn_mrgnbtm{
+    margin-bottom: 10px;
+}
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+}
+.modal-dialog .close{
+font-size: 18px;
+}
+#tabs_modal h3{
+    margin-top: 20px;
+    font-size: 24px;
+}
+#accordion .btn-link{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+#headingOne, #headingTwo, #headingThree{
+    padding: 0px 8px 4px 8px;
+}
+#accordion .card.card-default{
+margin-bottom: 10px;
+}
+#accordion .btn.btn-link:active, #accordion .btn.btn-link:focus{
+    box-shadow:none;
+}

@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    {% block title_outer %}
+        <title>:: SoleSMART :: {% block title %}{% endblock %}</title>
+    {% endblock %}
+
+
+    {% block meta %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="{% static "img/favicon.ico" %}"/>
+    {% endblock %}
+
+    {% block stylesheets %}
+        {% include 'lib/_styles.html' %}
+        {% block page_stylesheets %}{% endblock %}
+    {% endblock %}
+
+
+    {% block extra_head %}{% endblock %}
+</head>
+
+<body id="sign-in">
+<div class="preloader">
+    <div class="loader_img"><img src="{% static "img/loader.gif" %}" alt="loading..." height="64" width="64"></div>
+</div>
+
+{% block body %}
+
+        {% block nav_header %}
+            {% include 'lib/header.html' %}
+        {% endblock %}
+
+        {% block nav_sidebar %}
+            {% include 'lib/sidebar.html' %}
+        {% endblock %}
+
+
+        {% block content_block_wrap %}
+            {% block content %}{% endblock %}
+        {% endblock %}
+
+
+{% endblock body %}
+
+{% block javascript %}
+{% include 'lib/scripts.html' %}
+
+{% block page_javascript %}{% endblock %}
+
+{% endblock %}
+
+
+</body>
+
+</html>

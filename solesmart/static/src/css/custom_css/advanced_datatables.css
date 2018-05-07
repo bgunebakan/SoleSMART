@@ -1,0 +1,50 @@
+#table1_wrapper .row,#table2_wrapper .row,#table3_wrapper .row,#table4_wrapper .row,#table5_wrapper .col-xs-12,#table5_wrapper .row{
+    width:100% !important;
+}
+#table1_wrapper .dataTables_length,#table2_wrapper .dataTables_length,
+#table4_wrapper .dataTables_length,#table3_wrapper .dataTables_length{
+    float:left;
+}
+#table1_filter,#table2_filter,#table3_filter,#table4_filter{
+    margin-top:13px;
+    float:right;
+}
+.pagination {
+    float: right;
+}
+@media(max-width:320px){
+    div.dataTables_wrapper div.dataTables_filter input{
+        display:block;
+    }
+}
+.table > tbody > tr.danger > td{
+    background-color: #ff6666;
+}
+.table.dataTable{
+    border-collapse: collapse !important;
+}
+.card.filterable .ti-export b {
+font-weight: normal;
+}
+.mrgn_top{
+    margin-top: 20px;
+}
+.pagination > .active > a{
+    z-index: 3;
+    color: #fff !important;
+    background-color: #6699cc !important;
+    border-color: #6699cc !important;
+    cursor: default;
+}
+.pagination > li > a{
+    color: #6699cc!important;
+}
+.page-link:focus{
+    box-shadow:none;
+}
+.margn_set{
+    margin-top: 7px;
+}
+#table2{
+    border:1px solid #ddd;
+}

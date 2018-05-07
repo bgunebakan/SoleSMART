@@ -1,0 +1,123 @@
+$white:  #fff !default;
+//over-write bootstrap grey colors
+$gray-light:                      #bac4c5 !default;
+$gray-base:              #000 !default;
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+
+$blue:    #6699cc !default;
+$red:     #ff6666 !default;
+$yellow:  #f0ad4e !default;
+$green:   #66cc99 !default;
+$cyan:   #66ccff  !default;
+$mint:    #31d0d6 !default;
+$secondary: #727b84 !default;
+$purple: #937eff !default;
+
+$colors: (
+        blue: $blue,
+        red: $red,
+        yellow: $yellow,
+        green: $green,
+        cyan: $cyan,
+        white: $white,
+        mint: $mint,
+        gray:$gray-light,
+        purple:$purple
+) !default;
+
+$theme-colors: (
+        primary: $blue,
+        success: $green,
+        info: $cyan,
+        secondary: $secondary,
+        warning: $yellow,
+        danger: $red,
+        mint: $mint,
+        gray:$gray-light,
+        purple: $purple
+) !default;
+
+
+
+//over-write fonts
+
+$font-family-sans-serif:  'Open Sans', sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$headings-font-family:    inherit !default;
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          inherit !default;
+
+
+
+//over-write progress-bars
+
+// breadcrumb
+$breadcrumb-bg:                  #f5f5fc !default;
+$breadcrumb-divider-color:       #2180AC ;
+$breadcrumb-divider:             "\e661";
+
+
+//over write base font
+
+$font-size-base:                0.875rem;
+//line height
+$line-height-base:              1.8 !default;
+
+
+//header font sizes
+
+$h1-font-size: 2.25rem !default;
+$h2-font-size: 1.875rem !default;
+$h3-font-size: 1.5rem !default;
+$h4-font-size: 1rem !default;
+$h5-font-size: 0.875rem !default;
+$h6-font-size: 0.75rem   !default;
+
+$headings-color:                #0a3c5f !default;
+
+$headings-font-weight:          500 !default;
+
+$input-height :                 2.5rem;
+//link
+
+$link-hover-decoration:         none !default;
+//navbar
+$navbar-border-radius:          0 !default;
+
+//** Background color for `<body>`.
+$body-bg:               #fff !default;
+//** Global text color on `<body>`.
+$text-color:            $gray-dark !default;
+//line height
+$line-height-base:              1.8 !default;
+
+//body color
+//$body-color:                    #536973 !default;
+
+//custom checkbox radius
+$custom-checkbox-radius:        0 !default;
+
+$custom-control-indicator-size: 1.2rem !default;
+
+//input forms
+$input-color-placeholder:       #ccc !default;
+
+$input-color:                   #536973 !default;
+
+//breadcrumb
+$breadcrumb-divider:            "\e6af";
+
+//over-write link color
+$link-color:                     #525252 !default;
+
+//link
+$link-hover-decoration:          none !default;
+
+// Badges
+$badge-color:                 $white !default;
+

@@ -1,0 +1,11 @@
+canvas {
+    width : 100% !important;
+}
+.mrgn_top{
+    margin-top: 20px;
+}
+@media screen and (max-width:1024px) {
+    .set_media {
+        margin-top: 20px;
+    }
+}

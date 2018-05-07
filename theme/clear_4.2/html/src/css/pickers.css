@@ -1,0 +1,128 @@
+#example28 + .btn-group > .multiselect {
+    min-width : 65px;
+}
+.bootstrap-touchspin-up, .bootstrap-touchspin-down {
+    border-radius : 0 !important;
+}
+.clockface > div {
+    overflow : hidden;
+    text-align: center;
+}
+.bootstrap-switch-container{
+    width: 153px !important;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{
+    background-color: #6699cc;
+    color: #fff;
+}
+.multiselect-container>li>a>label {
+    height: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 3px 20px 3px 22px;
+}
+@media only screen and (min-width : 769px ) and (max-width : 1440px ) {
+    #example28-values {
+        margin-top : 10px;
+    }
+}
+@media (max-width : 320px ) {
+    .bootstrap-datetimepicker-widget.dropdown-menu {
+        width : 100%;
+        left  : 30px !important;
+    }
+}
+.picker-switch span{
+    color:#6699cc;
+}
+.multi_block{
+    display: block;
+}
+.dropdown_position .dropdown-menu{
+    transform:translate3d(0px, 3px, 0px) !important;
+
+}
+/* bootstrap 4 conversion*/
+
+.bootstrap-touchspin .input-group-btn-vertical{
+    margin-right: 15px;
+}
+.btn.btn-default.bootstrap-touchspin-up, .btn.btn-default.bootstrap-touchspin-down, .btn.btn-default.bootstrap-touchspin-down, .btn.btn-default.bootstrap-touchspin-up, .input-group-addon, .btn.btn-default.bootstrap-touchspin-down {
+    padding-bottom: 8px;
+    padding-top: 9px;
+}
+.btn.btn-default.bootstrap-touchspin-down{
+    padding-top: 11px;
+}
+.bootstrap-touchspin .input-group-btn-vertical i{
+    top:5px;
+}
+.btn.btn-default.bootstrap-touchspin-up{
+    padding-bottom: 10px;
+}
+
+.input-group-addon.bootstrap-touchspin-postfix.btn.btn-default{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#toggle-btn, #button-a {
+    padding: 8px 12px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.addon_icon .input-group{
+    flex-wrap: unset;
+}
+.mrgn_top{
+    margin-top: 15px;
+}
+.input-group.bootstrap-touchspin.input-group-lg .btn.btn-default.bootstrap-touchspin-up, .input-group.bootstrap-touchspin.input-group-lg .btn.btn-default.bootstrap-touchspin-down{
+    padding-bottom: 11px;
+    padding-top: 14px;
+}
+.form-control.multiselect-search, #demo1, #demo2, #demo_vertical, #demo3, #demo_vertical2, #demo3_21, #demo4, #demo5{
+    height: 40px !important;
+}
+#t2, #input-a{
+    height: 39px !important;
+}
+#demo4_2{
+    height: 47px !important;
+
+}
+.btn.btn-default.multiselect-clear-filter{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    height: 40px;
+}
+.multiselect-item.filter{
+    margin-top: -10px;
+}
+.multiselect-item.filter .input-group-addon{
+    margin-left: -5px;
+}
+.ontext, .offtext{
+    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+}
+.list_addon{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+@media(max-width: 1024px){
+    .set_media{
+      margin-top:20px;
+    }
+}
+.multiselect.dropdown-toggle.btn.btn-default, .list_addon{
+    margin-left: -15px;
+}
+.input-group.btn-group .multiselect.dropdown-toggle.btn.btn-default{
+    margin-left:unset;
+}
+.multiselect.btn:active, .multiselect.btn:focus{
+    box-shadow: none;
+}
